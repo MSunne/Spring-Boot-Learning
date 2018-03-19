@@ -8,5 +8,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * Created by bysocket on 21/07/2017.
  */
 public interface UserRepository extends JpaRepository<User, Long> {
+    public static void main(String[] args) {
 
+    }
 }
